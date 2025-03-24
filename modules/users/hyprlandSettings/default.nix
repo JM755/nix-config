@@ -122,7 +122,7 @@
         "hyprctl setcursor phinger-cursors-dark 10"
         "hyprlock"
         "alacritty --working-directory /etc/nixos"  # --socket \"$XDG_RUNTIME_DIR/alacritty.sock\""
-        "${pkgs.firefox}/bin/firefox"
+        "${pkgs.brave}/bin/brave"
         "${pkgs.hyprpaper}/bin/hyprpaper"
         "${pkgs.waybar}/bin/waybar"
         "renameworkspace, 1 Bench"

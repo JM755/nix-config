@@ -31,28 +31,23 @@
     vulkan-tools
     vulkan-loader
     vulkan-validation-layers
-    vaapiVdpau
     mesa
     mesa-demos
     libva
-    libvdpau
     libva-utils
-    libvdpau-va-gl
     pciutils
+    clinfo
 
-#    gnomeExtensions.airpod-battery-monitor
-  
     easyeffects
     protonup
     mangohud
 
-    firefox
+    brave
     spotify
     vim
     wget
     mtr
     neofetch
-    thunderbird
     signal-desktop
     vlc
     libvlc
@@ -60,7 +55,6 @@
     hunspell
     hunspellDicts.en_AU
     obsidian
-    zoom-us
   ];
   environment.sessionVariables = {
     STEAM_EXTRA_COMPAT_TOOLS_PATHS = 

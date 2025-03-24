@@ -123,17 +123,7 @@ in
 
   nixpkgs.config.allowUnfree = true;
 
-  hardware.graphics = {
-    enable = true;
-    extraPackages = with pkgs; [
-      intel-media-driver
-      libvdpau-va-gl  
-    ];
-    enable32Bit = true;
-    extraPackages32 = with pkgs.pkgsi686Linux; [ 
-      intel-vaapi-driver 
-    ];
-  };
+
 
   hardware.bluetooth = {
     enable = true;
@@ -150,14 +140,6 @@ in
   };    
   networking = {
     networkmanager.enable = true;
-#    firewall.allowedTCPPorts = [ 
-#      27036 ## Steam Remote Play
-#      27037
-#    ];
-#    firewall.allowedUDPPorts = [
-#      27031 ## Steam Remote Play
-#      27036 
-#    ];
   };
 
   time.timeZone = "${timeZoneAU}";

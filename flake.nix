@@ -19,7 +19,7 @@
     pkgs = nixpkgs.legacyPackages.${system};              
   in {
     nixosConfigurations = {     
-      nixos-tp = nixpkgs.lib.nixosSystem {
+      nixos-lowq = nixpkgs.lib.nixosSystem {
         specialArgs = {
           inherit inputs;
         };

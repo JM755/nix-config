@@ -26,7 +26,7 @@
     programs.git.userName    = "James";
     programs.git.userEmail   = "jmburn755@gmail.com";
     programs.git.extraConfig = { 
-      init.defaultBranch = "thinkpad"; 
+      init.defaultBranch = "LowQ"; 
       safe.directory     = "/etc/nixos";
     };
     wayland.windowManager.hyprland.enable = true;
